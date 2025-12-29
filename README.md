@@ -123,7 +123,7 @@ This is a Round 1 **proof-of-concept** focusing on system design and logical flo
 - `POST /api/v1/grievances/` - Submit new grievance
 - `GET /api/v1/grievances/` - List all grievances
 - `GET /api/v1/grievances/{id}` - Get specific grievance
-- `GET /api/v1/dashboard` - Basic statistics
+- `GET /api/v1/analytics/dashboard` - Basic statistics
 
 ## Sample Processing
 
@@ -188,4 +188,4 @@ We focused on **problem understanding** and **system design** rather than comple
 - Honest about current capabilities
 - Ready for advanced AI integration
 
-This prototype proves the concept works with simple logic before investing in complex AI models.
+This prototype proves the concept works with simple logic before implementing complex AI models.
