@@ -131,7 +131,7 @@ function SubmitGrievance() {
 
   return (
     <div className="container">
-      <h1 className="text-3xl font-bold mb-2 text-gray-800">
+      <h1 className="text-3xl font-bold mb-3 text-gray-800 tracking-tight">
         Submit New Grievance
       </h1>
       <p className="mb-6 text-gray-600 text-lg">
@@ -141,7 +141,7 @@ function SubmitGrievance() {
 
       {error && <div className="alert alert-error">{error}</div>}
 
-      <div className="card shadow-lg border border-gray-200">
+      <div className="card shadow-lg border border-gray-200 round-xl hover:shadow-xl transition-shadow duration-200">
         <form onSubmit={handleSubmit} className="space-y-8">
           <div className="form-group">
             <label className="form-label">Grievance Title *</label>
