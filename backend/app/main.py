@@ -136,7 +136,7 @@ async def get_grievance(grievance_id: int):
             return g
     return {"error": "Grievance not found"}
 
-@app.get("/api/v1/dashboard")
+@app.get("/api/v1/analytics/dashboard")
 async def get_dashboard():
     if not grievances:
         return {"message": "No grievances submitted yet"}
