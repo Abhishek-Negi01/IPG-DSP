@@ -165,22 +165,6 @@ function Dashboard() {
           </div>
         </div>
       </div>
-
-      {/* System Status */}
-      <div className="mt-8 bg-white rounded-lg shadow-md p-6 border border-gray-200">
-        <h2 className="text-xl font-bold text-gray-900 mb-4">System Status</h2>
-        <div className="flex flex-wrap gap-4">
-          <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
-            AI Pipeline: Active
-          </span>
-          <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
-            Database: Connected
-          </span>
-          <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
-            Last Updated: {new Date().toLocaleTimeString()}
-          </span>
-        </div>
-      </div>
     </div>
   );
 }

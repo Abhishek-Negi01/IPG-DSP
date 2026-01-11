@@ -110,30 +110,31 @@ Agent 3: Department Mapping Agent
 
 **Abhishek Negi** - Backend & System Integration
 
-- Built the FastAPI backend with all 4 endpoints
-- Implemented the 3-agent processing system
-- Created keyword matching logic for categorization
-- Set up CORS and error handling
+- Built the FastAPI backend with all core API endpoints
+- Implemented the rule-based 3-agent grievance processing system
+- Created keyword-matching logic for categorization and urgency scoring
+- Integrated frontend with backend APIs and ensured smooth data flow
+- Set up CORS, request validation, and basic error handling
 
 **Ankit Negi** - Frontend Development & UI
 
-- Built all React components and pages
-- Implemented Tailwind CSS styling
-- Created responsive design for mobile/desktop
+- Built React components and application pages
+- Implemented UI styling and layout
+- Ensured responsive design for mobile and desktop devices
 
-**Akbar Ansari** - Support Programming & Testing
+**Akbar Ansari** - Frontend Support Programming & Testing
 
-- Connected frontend to backend APIs
-- Added form validation and loading states
-- Fixed bugs and tested user workflows
-- Helped with data fetching and error handling
+- Assisted in connecting frontend components with backend APIs
+- Added form validation and loading/error states
+- Fixed UI and integration bugs
+- Tested end-to-end user workflows and edge cases
 
 **Himanshu Yadav** - Documentation & Demo Preparation
 
 - Prepare and collect dataset (for model training)
 - Wrote all README files and documentation
 - Prepared demo scenarios and test cases
-- Organized project structure and cleanup
+- Organized project structure and remove unnecessary files
 - Coordinated team tasks and timeline
 
 ## Quick Demo
