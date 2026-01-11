@@ -45,7 +45,13 @@ export default function HomePage() {
 
           <div className="hidden md:block">
             <div className="bg-white rounded-xl shadow p-6">
-              <div className="h-48 bg-gray-100 rounded"></div>
+              <div className="h-48 bg-gray-100 rounded">
+                <img
+                  src="\public\illustrations\background.jpg"
+                  alt="Analytics Dashboard"
+                  className="w-full rounded-md"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -152,7 +158,7 @@ export default function HomePage() {
             <div className="hidden md:block">
               <div className="bg-white rounded-xl shadow-lg p-4">
                 <img
-                  src="/illustration/dashboard.jpg"
+                  src="/public/illustrations/dashboard.jpg"
                   alt="Analytics Dashboard"
                   className="w-full rounded-md"
                 />
@@ -174,17 +180,17 @@ export default function HomePage() {
               [
                 "Efficiency",
                 "Citizens submit grievances through the web portal",
-                "/icons/efficiency.png",
+                "/public/illustrations/efficiency.png",
               ],
               [
                 "Process",
                 "AI agents analyze, categorize, and route grievances",
-                "/icons/process.png",
+                "/public/illustrations/process.png",
               ],
               [
                 "Monitor",
                 "Officials track and manage grievances",
-                "/icons/monitor.png",
+                "/public/illustrations/monitor.png",
               ],
             ].map(([title, desc, icon]) => (
               <div
